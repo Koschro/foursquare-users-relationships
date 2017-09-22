@@ -6,7 +6,9 @@ More specifically, we have data about the users and their properties, as well as
 
 Next, we see that users relate to each other through friendships and users relate to venues through check-ins and ratings. 
 
-# Database creation using the Power Shell of Windows where we implemented the following commands:
+# Database creation 
+
+Using the Power Shell of Windows where we implemented the following commands:
 
 •	PS C:\Users\kos_c>  cd C:\Users\kos_c\Documents\Neo4j\Assignment
 
