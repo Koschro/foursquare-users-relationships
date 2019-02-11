@@ -1,7 +1,7 @@
-1.match (v:Venue{venueID:'v1008372'})<-[r:Rates]-(n:Person) 
+1. match (v:Venue{venueID:'v1008372'})<-[r:Rates]-(n:Person) 
 return count(n) as num_of_rating, avg(toInt(r.rating)) as avg_rating order by avg_rating desc;
  
-2.match (p:Person)-[c:Checkin]->(v:Venue) 
+2. match (p:Person)-[c:Checkin]->(v:Venue) 
 with v.venueID as id_of_venue,count(v) as number_of_checkins 
 return id_of_venue,max(number_of_checkins) as max_checkins 
 order by max_checkins desc limit 1;
