@@ -1,8 +1,8 @@
 # foursquare-users-relationships
 
-Using .dat files, we get the data about the Foursquare users, the registered Venues and all types of relationships under study. 
+Using .dat files, data is about the Foursquare users, the registered Venues and all types of relationships under study. 
 
-More specifically, we have data about the users and their properties, as well as the venues and their properties. 
+More specifically, data is about the users and their properties, as well as the venues and their properties. 
 
 Next, we see that users relate to each other through friendships and users relate to venues through check-ins and ratings. 
 
